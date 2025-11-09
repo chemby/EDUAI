@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.30)  12 OCT 2025 20:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.30)  7 NOV 2025 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -256,26 +256,26 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (clanok.aux)
 \openout1 = `clanok.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
 
 (C:\Users\vovak\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -302,61 +302,102 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 31.
  (clanok.out) (clanok.out)
 \@outlinefile=\write3
 \openout3 = `clanok.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 35.
+(Font)              <12> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 35.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
+(Font)              <6> on input line 34.
 LaTeX Font Info:    Trying to load font information for IL2+cmtt on input line 
-35.
+34.
 
 (C:\Users\vovak\AppData\Local\Programs\MiKTeX\tex/cslatex/base\il2cmtt.fd
 File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 35.
+(Font)              <5> on input line 34.
 
-No file clanok.bbl.
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
+
+ []
+
 [1
 
 {C:/Users/vovak/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(clanok.aux)
+Overfull \hbox (12.83403pt too wide) in paragraph at lines 70--71
+\IL2/cmr/m/n/10 Prehµad do-stup-ných ja-zy-ko-vých mo-de-lov pre slo-ve-nèinu (
+napr. Slov-BERT, mBERT,
+ []
+
+
+Overfull \hbox (3.41734pt too wide) in paragraph at lines 86--87
+\IL2/cmr/m/n/10 Opis zdro-jov dát (in-terné uni-ver-zitné do-ku-menty, ¹tu-dijn
+é po-riadky, FAQ, uèebné
+ []
+
+[2]
+Overfull \hbox (5.59793pt too wide) in paragraph at lines 94--95
+\IL2/cmr/m/n/10 Popis met-rík hod-no-te-nia pres-nosti a kva-lity od-po-vedí (A
+c-cu-racy, BLEU, ROUGE,
+ []
+
+[3]
+Overfull \hbox (13.36191pt too wide) in paragraph at lines 158--159
+\IL2/cmr/m/n/10 Struèná re-ka-pi-tu-lá-cia vý-sled-kov, prí-no-sov a prak-tic-k
+ých vý-stu-pov pro-jektu EDUAI. 
+ []
+
+No file clanok.bbl.
+[4] (clanok.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `clanok.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `clanok.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `clanok.out':
+(rerunfilecheck)             Before: DB0DE7610A8EC3D02C97B5AA4B27DDA4;3926
+(rerunfilecheck)             After:  EE6E3DCA5B38AC83F62255F2DE6D5D2C;6231.
  ) 
 Here is how much of TeX's memory you used:
- 10055 strings out of 474486
- 159703 string characters out of 5743755
- 1937542 words of memory out of 5000000
- 32221 multiletter control sequences out of 15000+600000
- 566404 words of font info for 57 fonts, out of 8000000 for 9000
+ 10138 strings out of 474486
+ 160827 string characters out of 5743755
+ 1938542 words of memory out of 5000000
+ 32270 multiletter control sequences out of 15000+600000
+ 568751 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,609b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,609b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\vovak\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\c
-sr10.pk> <C:\Users\vovak\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dp
-i600\csr8.pk> <C:\Users\vovak\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
-dpi600\tcrm0600.pk> <C:\Users\vovak\AppData\Local\MiKTeX\fonts/pk/ljfour/jknapp
-en/ec/dpi600\tcrm0900.pk> <C:\Users\vovak\AppData\Local\MiKTeX\fonts/pk/ljfour/
-public/csfonts/dpi600\csbx9.pk> <C:\Users\vovak\AppData\Local\MiKTeX\fonts/pk/l
-jfour/public/csfonts/dpi600\cstt9.pk> <C:\Users\vovak\AppData\Local\MiKTeX\font
-s/pk/ljfour/public/csfonts/dpi600\csr9.pk> <C:\Users\vovak\AppData\Local\MiKTeX
-\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk> <C:\Users\vovak\AppData\Local\
-MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr12.pk> <C:\Users\vovak\AppData\
-Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr17.pk><C:/Users/vovak/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-Output written on clanok.pdf (1 page, 78071 bytes).
+sbx12.pk> <C:\Users\vovak\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/d
+pi720\csbx12.pk> <C:\Users\vovak\AppData\Local\MiKTeX\fonts/pk/ljfour/public/cs
+fonts/dpi600\cssl10.pk> <C:\Users\vovak\AppData\Local\MiKTeX\fonts/pk/ljfour/pu
+blic/csfonts/dpi600\csr10.pk> <C:\Users\vovak\AppData\Local\MiKTeX\fonts/pk/ljf
+our/public/csfonts/dpi600\csr8.pk> <C:\Users\vovak\AppData\Local\MiKTeX\fonts/p
+k/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\vovak\AppData\Local\MiKTeX\f
+onts/pk/ljfour/jknappen/ec/dpi600\tcrm0900.pk> <C:\Users\vovak\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/public/csfonts/dpi600\csbx9.pk> <C:\Users\vovak\AppData\Lo
+cal\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\cstt9.pk> <C:\Users\vovak\AppD
+ata\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr9.pk> <C:\Users\vovak
+\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0800.pk> <C:\Users
+\vovak\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr12.pk> <C:
+\Users\vovak\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr17.p
+k><C:/Users/vovak/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr9.pfb>
+Output written on clanok.pdf (4 pages, 170048 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

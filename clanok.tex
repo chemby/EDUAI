@@ -27,7 +27,6 @@
 
 \date{\small 10.  oktober 2025} % upravte
 
-%testtesteefpjerofjwelkfjewlkfjewlkfjew
 
 \begin{document}
 
@@ -51,80 +50,114 @@ Projekt prinesie spoločenský a ekonomický dopad – zlepší dostupnosť info
 
 \section{Úvod}
 
-Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.
-
-Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
-Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
-Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
-Záverečné poznámky prináša časť~\ref{zaver}.
+1) Kontext a motivácia výskumu...\\
+2) Ciele a výskumné otázky...\\
+3) Štruktúra práce...\\
 
 
 
-\section{Nejaká časť} \label{nejaka}
+\section{Teoretické základy a súčasný stav výskumu} \label{teoreticke_zaklady}
 
-Z obr.~\ref{f:rozhod} je všetko jasné. 
+\subsection{Umelá inteligencia v akademickom prostredí} \label{ai_v_akad_prostredi}
+Prehľad využívania AI vo vzdelávaní a existujúcich prístupov (ChatGPT Edu, Khanmigo, Google LearnLM).
 
-\begin{figure*}[tbh]
-\centering
-%\includegraphics[scale=1.0]{diagram.pdf}
-Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
-\caption{Rozhodujúci argument.}
-\label{f:rozhod}
-\end{figure*}
+[TABUĽKA: Porovnanie existujúcich akademických AI asistentov]
+\subsection{NLP technológie a jazykové modely} \label{nlp_modely}
+Popis základov spracovania prirodzeného jazyka, konceptov embeddingov, transformerov a fine-tuningu.
 
+[DIAGRAM: Schéma architektúry Transformeru]
+\subsection{Slovenské a viacjazyčné NLP modely} \label{slovenske_nlp_modely}
+Prehľad dostupných jazykových modelov pre slovenčinu (napr. SlovBERT, mBERT, LLaMA-3 multilingual).
 
+[GRAF: Výkonnosť slovenských NLP modelov v benchmarkoch (F1, BLEU)]
+\subsection{Etické a spoločenské aspekty použitia AI} \label{eticke_aspekty}
+Diskusia o transparentnosti, zaujatosti modelov, ochrane osobných údajov a etických normách v akademickom prostredí.
 
-\section{Iná časť} \label{ina}
-
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
-
-Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
-
-
-\subsection{Nejaké vysvetlenie} \label{ina:nejake}
-
-Niekedy treba uviesť zoznam:
-
-\begin{itemize}
-\item jedna vec
-\item druhá vec
-	\begin{itemize}
-	\item x
-	\item y
-	\end{itemize}
-\end{itemize}
-
-Ten istý zoznam, len číslovaný:
-
-\begin{enumerate}
-\item jedna vec
-\item druhá vec
-	\begin{enumerate}
-	\item x
-	\item y
-	\end{enumerate}
-\end{enumerate}
+[DIAGRAM: Etický rámec AI v akademickej komunikácii]
 
 
-\subsection{Ešte nejaké vysvetlenie} \label{ina:este}
+\section{Metodológia výskumu} \label{metodologia}
 
-\paragraph{Veľmi dôležitá poznámka.}
-Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
+\subsection{Výskumný dizajn} \label{dizajn}
+Popis výskumného prístupu (experimentálny, kvantitatívny, vývojový). Definícia závislých a nezávislých premenných.
+
+[DIAGRAM: Schéma výskumného rámca projektu EDUAI]
+\subsection{Zber a spracovanie dát} \label{zber_dat}
+Opis zdrojov dát (interné univerzitné dokumenty, študijné poriadky, FAQ, učebné texty) a ich predspracovania (tokenizácia, normalizácia, anotácia).
+
+[GRAF: Distribúcia dát podľa typu dokumentu]
+\subsection{Tréning a adaptácia modelov} \label{trening}
+Detailný opis procesu fine-tuningu jazykových modelov (BERT, LLaMA, GPT) na akademických dátach.
+
+[DIAGRAM: Pipeline trénovania EduGuide AI – od dát po model]
+\subsection{Evaluácia a metriky} \label{evaluacia}
+Popis metrík hodnotenia presnosti a kvality odpovedí (Accuracy, BLEU, ROUGE, F1-score, Human Evaluation).
+
+[GRAF: Porovnanie metrík pre rôzne modely]
+\subsection{Validácia a experimentálny plán} \label{validacia}
+Metódy testovania v reálnych scenároch (dotazy študentov, akademické otázky).
+
+[OBRÁZOK: Ukážka testovacieho prostredia EduGuide AI]
 
 
+\section{Implementácia systému EduGuide AI} \label{implementacia}
 
-\section{Dôležitá časť} \label{dolezita}
+\subsection{Architektúra systému} \label{architektura}
+Prehľad komponentov: NLP modul, databázová vrstva, API rozhranie, používateľské rozhranie.
+
+[DIAGRAM: Architektúra systému EduGuide AI]
+\subsection{Integrácia s univerzitnými systémami} \label{integracia}
+Popis spôsobu prístupu k univerzitným informačným systémom (API, databázové dotazy, autentifikácia).
+
+[DIAGRAM: Tok dát medzi EduGuide AI a univerzitným systémom]
+\subsection{Používateľské rozhranie a UX návrh} \label{ux}
+Opis rozhrania asistenta (chatové okno, vyhľadávacie funkcie, jazyková voľba).
+
+[OBRÁZOK: Screenshot návrhu používateľského rozhrania prototypu]
+\subsection{Technologický stack a implementačné nástroje} \label{tech_stack}
+Prehľad použitých technológií (Python, PyTorch, FastAPI, PostgreSQL, Streamlit).
+
+[TABUĽKA: Použité technológie a ich úloha v systéme]
 
 
+\section{Experimentálne výsledky a analýza} \label{vysledky}
+
+\subsection{Výkonnostné porovnanie modelov} \label{}
+Porovnanie modelov (BERT, GPT, LLaMA) na testovacom datasete.
+
+[GRAF: Presnosť odpovedí podľa typu modelu]
+\subsection{Analýza chýb a limitácií} \label{}
+Identifikácia typov chýb (faktické, jazykové, sémantické).
+
+[TABUĽKA: Príklady nesprávnych odpovedí a ich klasifikácia]
+\subsection{Meranie používateľskej spokojnosti} \label{}
+Výsledky dotazníkov a testov používateľov (študentov).
+
+[GRAF: Hodnotenie spokojnosti používateľov (Likertova škála)]
+\subsection{Diskusia výsledkov} \label{}
+Interpretácia výsledkov, porovnanie s hypotézami, možné vysvetlenia zistení.
 
 
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
+\section{Diskusia a odporúčania} \label{odporucania}
+
+\subsection{Porovnanie s existujúcimi riešeniami} \label{}
+Zhodnotenie prínosov EduGuide AI oproti iným AI asistentom vo vzdelávaní.
+
+[TABUĽKA: Porovnanie funkcií EduGuide AI vs. konkurencia]
+\subsection{Praktické implikácie a možnosti nasadenia} \label{}
+Diskusia o potenciáli integrácie do praxe (napr. univerzitné portály, LMS).
+
+[DIAGRAM: Možnosti nasadenia EduGuide AI v akademickej infraštruktúre]
+\subsection{Limity výskumu a budúce smerovanie} \label{}
+Identifikácia slabín projektu (obmedzenia dát, jazykové nuansy, etické aspekty) a návrhy na budúci výskum.
 
 
+\section{Záver} \label{zaver}
 
-
-\section{Záver} \label{zaver} % prípadne iný variant názvu
-
+\subsection{Zhrnutie hlavných prínosov práce} \label{}
+Stručná rekapitulácia výsledkov, prínosov a praktických výstupov projektu EDUAI.
+\subsection{Možnosti rozšírenia a budúce výzvy} \label{}
+Návrhy na pokračovanie výskumu (napr. multimodálne modely, adaptívne učenie, personalizácia pre študentov).
 
 %\acknowledgement{Ak niekomu chcete poďakovať\ldots}
 
